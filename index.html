@@ -2,26 +2,386 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Liftr Legal</title>
-<style>
-  :root { --bg: #ffffff; --text: #16181d; --accent: #d93636; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0e0f12; --text: #eceef2; --accent: #ef4444; } }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
-  h1 { color: var(--accent); letter-spacing: -0.5px; }
-  a { color: var(--accent); font-size: 19px; }
-  li { margin: 8px 0; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Liftr: log the lift, share the work</title>
+<meta name="description" content="Liftr is a workout log that keeps up with you between sets. Fast logging that works with no signal, PRs picked up automatically, and a feed of your friends' lifts. Free on iPhone, now in beta.">
+<meta name="theme-color" content="#0E0E10" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F1F1F3" media="(prefers-color-scheme: light)">
+<link rel="canonical" href="https://natndez.github.io/liftr-legal/">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Liftr">
+<meta property="og:title" content="Liftr: log the lift, share the work">
+<meta property="og:description" content="A workout log that keeps up with you between sets. Free on iPhone, now in beta on TestFlight.">
+<meta property="og:url" content="https://natndez.github.io/liftr-legal/">
+<meta property="og:image" content="https://natndez.github.io/liftr-legal/icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main>
-  <h1>Liftr</h1>
-  <ul>
-    <li><a href="terms.html">Terms of Use</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="mailto:dev.nathanf@gmail.com">Contact</a></li>
-  </ul>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Liftr home">
+      <svg viewBox="94.5 59.5 400 400" fill="currentColor" aria-hidden="true"><path d="M311 98 L104 421 L212 327 L311 182 L354 243 L385 204 Z"/><path d="M290 326 L316 356 L411 298 L485 385 L480 322 L420 224 Z"/></svg>
+      Liftr
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#invite">Invite</a>
+      <a href="#faq">FAQ</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://testflight.apple.com/join/AMtnvyBE">Join the beta</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <a class="pill" href="#invite"><span class="dot" aria-hidden="true"></span>Now in beta on TestFlight</a>
+        <h1>Log the lift.<br><em>Share the work.</em></h1>
+        <p class="lead">Liftr is a workout log that keeps up with you between sets. Log in seconds, even with no signal. PRs get picked up on their own, and your friends see the work and give you props for it.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://testflight.apple.com/join/AMtnvyBE">
+            Join the beta
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#invite">Invite your crew</a>
+        </div>
+        <ul class="hero-meta">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Free</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>iPhone</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No ads, no tracking</li>
+        </ul>
+      </div>
+
+      <div class="phone" role="img" aria-label="The Liftr feed: Sam's 205 pound bench press PR, with props and a comment from a friend">
+        <div class="phone-screen">
+          <div class="phone-island"></div>
+          <div class="phone-bar">Feed <span>Following</span></div>
+
+          <div class="card-m">
+            <div class="who">
+              <div class="avatar">SC</div>
+              <div>
+                <div class="name">Sam Carter</div>
+                <div class="sub">2h ago · Morning Push</div>
+              </div>
+              <span class="split-tag">PUSH</span>
+            </div>
+            <div class="pr-banner">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3h14v3a5 5 0 0 1-4 4.9V13h-2v3h3v3H8v-3h3v-3H9v-2.1A5 5 0 0 1 5 6V3Zm-3 1h2v2a3 3 0 0 0 1 2.2V10a5 5 0 0 1-3-4.6V4Zm18 0h2v1.4A5 5 0 0 1 19 10V8.2A3 3 0 0 0 20 6V4Z"/></svg>
+              NEW PR · BENCH PRESS
+            </div>
+            <div class="top-set">
+              <svg class="flame" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2s5 4.5 5 10a5 5 0 0 1-10 0c0-2.2 1-3.8 2-5 .2 1.8 1 3 2 3.5C11 7.5 12 2 12 2Z"/></svg>
+              <span class="badge">TOP SET</span>
+              <div class="big">205 <small>lb × 2</small></div>
+              <div class="ex"><i></i>Bench Press</div>
+            </div>
+            <div class="stats-m">
+              <div><b>1h 05m</b><span>Time</span></div>
+              <div><b>8.8k</b><span>Volume</span></div>
+              <div><b>16</b><span>Sets</span></div>
+              <div><b>5</b><span>Exercises</span></div>
+            </div>
+            <div class="bands">
+              <i style="flex:4;background:#F87171"></i>
+              <i style="flex:3;background:#FBBF24"></i>
+              <i style="flex:3;background:#22D3EE"></i>
+            </div>
+            <div class="social-row">
+              <span class="on"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2s5 4.5 5 10a5 5 0 0 1-10 0c0-2.2 1-3.8 2-5 .2 1.8 1 3 2 3.5C11 7.5 12 2 12 2Z"/></svg>8 props</span>
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg>3 comments</span>
+            </div>
+            <div class="comment-m">
+              <div class="avatar b">MC</div>
+              <div><b>Maya Chen</b> Called it last week. 205!</div>
+            </div>
+          </div>
+
+          <div class="card-m small">
+            <div class="row">
+              <div class="avatar b">MC</div>
+              <div>
+                <div class="name">Maya Chen</div>
+                <div class="sub">Yesterday · Glutes + Hams</div>
+              </div>
+              <div class="meta-r">245 lb<small>Hip Thrust</small></div>
+            </div>
+          </div>
+
+          <div class="card-m small">
+            <div class="row">
+              <div class="avatar c">JR</div>
+              <div>
+                <div class="name">Jordan Reyes</div>
+                <div class="sub">5d ago · Pull</div>
+              </div>
+              <div class="meta-r">405 lb<small>Deadlift</small></div>
+            </div>
+          </div>
+
+          <div class="tabbar-m">
+            <span class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Feed</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v4a5 5 0 0 1-10 0V4ZM12 13v4M8 20h8M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3"/></svg>Community</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12"/></svg>Lift</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Analytics</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>You</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="Liftr at a glance">
+    <div class="wrap">
+      <ul>
+        <li><b>200<em>+</em></b><span>exercises in the library, or add your own</span></li>
+        <li><b>6</b><span>kinds of sets, from barbell to sled pushes</span></li>
+        <li><b>0</b><span>bars of signal needed to log a lift</span></li>
+        <li><b>0</b><span>ads, trackers or analytics tools</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What's inside</p>
+        <h2>Everything you need between sets. Nothing you don't.</h2>
+        <p>Liftr records what you did and shows it back to you clearly. It doesn't tell you what to do next.</p>
+      </div>
+
+      <div class="features">
+        <article class="feature" style="--accent:#EF4444">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></div>
+          <h3>Log fast</h3>
+          <p>Pick a split and go.</p>
+          <ul>
+            <li>200+ exercises, or make your own</li>
+            <li>Barbell, dumbbell, bodyweight, timed holds, reps only, and sleds and carries by distance</li>
+            <li>Rest timer, plus a Live Activity on your Lock Screen and Dynamic Island</li>
+            <li>Save templates, run any past lift again, or backfill one you forgot to log</li>
+          </ul>
+        </article>
+
+        <article class="feature" style="--accent:#FBBF24">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+          <h3>See your work</h3>
+          <p>Your history, laid out properly.</p>
+          <ul>
+            <li>PRs picked up automatically, every one on your PR wall</li>
+            <li>Estimated 1RM, progress per exercise, and your compound total</li>
+            <li>A volume map of where your sets went, muscle by muscle</li>
+            <li>Weekly streaks, a training heatmap, and trophies from your own history</li>
+          </ul>
+        </article>
+
+        <article class="feature" style="--accent:#818CF8">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14a6.5 6.5 0 0 1 3 6"/></svg></div>
+          <h3>Lift with friends</h3>
+          <p>A feed of the people you actually train with.</p>
+          <ul>
+            <li>Give props, comment and reply</li>
+            <li>Up to three photos on any lift</li>
+            <li>Find friends from your contacts, if you want to</li>
+            <li>Monthly leaderboard seasons and weekly community goals</li>
+          </ul>
+        </article>
+
+        <article class="feature" style="--accent:#4ADE80">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10.5" width="16" height="10.5" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></svg></div>
+          <h3>Your call</h3>
+          <p>You decide who sees what.</p>
+          <ul>
+            <li>Any lift can be public or Only me</li>
+            <li>Make private the default for new lifts</li>
+            <li>Block or report anyone, from any lift, comment or profile</li>
+            <li>Delete your account and everything in it, any time</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="invite" style="padding-top:24px">
+    <div class="wrap">
+      <div class="invite">
+        <div>
+          <p class="eyebrow">Invite</p>
+          <h2>Bring your crew.</h2>
+          <p class="intro">Liftr is in beta on TestFlight, Apple's app for trying apps before they hit the App Store. Send this to anyone you train with.</p>
+
+          <label class="field-label" for="invite-link">Invite link</label>
+          <div class="copy-field">
+            <input id="invite-link" type="text" value="https://testflight.apple.com/join/AMtnvyBE" readonly spellcheck="false">
+            <button class="btn btn-primary btn-sm" type="button" data-copy="invite-link" data-copy-toast="Link copied">
+              <span class="label-default">Copy link</span><span class="label-done">Copied</span>
+            </button>
+          </div>
+
+          <div class="bubble-wrap">
+            <span class="field-label">Or send the whole message</span>
+            <p class="bubble" id="invite-message">I'm using Liftr to track my lifts — come train with me.
+
+<a href="https://testflight.apple.com/join/AMtnvyBE">https://testflight.apple.com/join/AMtnvyBE</a></p>
+            <div class="copy-actions">
+              <button class="btn btn-ghost btn-sm" type="button" data-copy="invite-message" data-copy-toast="Message copied">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8"/></svg>
+                <span class="label-default">Copy message</span><span class="label-done">Copied</span>
+              </button>
+              <button class="btn btn-ghost btn-sm" type="button" data-share="invite-message">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 11v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8"/></svg>
+                Share
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="steps-title">Joining takes a minute</p>
+          <ol class="steps">
+            <li><b>Get TestFlight</b><span>It's free on the <a href="https://apps.apple.com/app/testflight/id899247664">App Store</a>.</span></li>
+            <li><b>Open the invite on your iPhone</b><span>Tap the link, or open the message you were sent.</span></li>
+            <li><b>Tap Accept, then Install</b><span>Sign up, pick a split and log your first lift.</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="privacy" style="padding-top:24px">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Privacy</p>
+        <h2>Your lifts, your call.</h2>
+        <p>Liftr doesn't sell your data, doesn't show ads, and doesn't track you across other apps or websites. There are no analytics or crash-reporting tools in the app.</p>
+      </div>
+      <div class="promise">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10.5" width="16" height="10.5" rx="2.5"/><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/></svg>
+          <b>Private lifts</b>
+          <p>Set any lift to Only me. It stays off the feed and your profile, and still counts toward your totals.</p>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.4 8 9 4.6-.6 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <b>Safe by default</b>
+          <p>Block or report from any "…" menu. Reports are reviewed within 24 hours.</p>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>
+          <b>Gone when you say so</b>
+          <p>Delete your account in the app and your lifts, photos and comments go with it.</p>
+        </div>
+      </div>
+      <a class="more-link" href="privacy.html">Read the privacy policy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+
+  <section class="section" id="faq" style="padding-top:24px">
+    <div class="wrap faq">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Good questions.</h2>
+        <p>Anything else, email <a href="mailto:dev.nathanf@gmail.com">dev.nathanf@gmail.com</a>.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Is Liftr free?</summary>
+          <div><p>Yes. There are no ads, and nothing in the app costs money.</p></div>
+        </details>
+        <details>
+          <summary>What phones does it run on?</summary>
+          <div><p>iPhone, on iOS 15.1 or later. Android isn't out yet.</p></div>
+        </details>
+        <details>
+          <summary>What's TestFlight?</summary>
+          <div><p>Apple's own app for trying apps before they're on the App Store. Liftr is in beta there right now. Your lifts are saved to your account, so they come with you when Liftr moves to the App Store.</p></div>
+        </details>
+        <details>
+          <summary>Does it work without signal?</summary>
+          <div><p>Yes. Every lift saves to your phone the moment you log it, then syncs when you're back online. Basement gyms welcome.</p></div>
+        </details>
+        <details>
+          <summary>Who can see my lifts?</summary>
+          <div><p>Lifts set to Anyone show up for people who follow you and anyone who opens your profile. Lifts set to Only me are just for you. You can switch any lift either way, and make Only me the default. The <a href="privacy.html#who-can-see">privacy policy</a> has the full breakdown.</p></div>
+        </details>
+        <details>
+          <summary>How do I report or block someone?</summary>
+          <div><p>Tap the "…" on any lift, comment or profile. Blocking hides the two of you from each other straight away. We review every report within 24 hours.</p></div>
+        </details>
+        <details>
+          <summary>How do I delete my account?</summary>
+          <div><p>In the app: Settings, then Account Options, then Delete account. It takes effect immediately and removes everything tied to your account.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <img class="mark" src="icon.png" alt="" width="76" height="76">
+      <h2>Your next PR is waiting.</h2>
+      <p>Join the beta, log a lift, and send the link to whoever spots you.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://testflight.apple.com/join/AMtnvyBE">Join the beta</a>
+        <a class="btn btn-ghost" href="#invite">Copy the invite link</a>
+      </div>
+    </div>
+  </section>
+
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./">
+          <svg viewBox="94.5 59.5 400 400" fill="currentColor" aria-hidden="true"><path d="M311 98 L104 421 L212 327 L311 182 L354 243 L385 204 Z"/><path d="M290 326 L316 356 L411 298 L485 385 L480 322 L420 224 Z"/></svg>
+          Liftr
+        </a>
+        <p>Log the lift. Share the work. A workout log for iPhone.</p>
+      </div>
+      <div>
+        <h4>App</h4>
+        <ul>
+          <li><a href="./#features">Features</a></li>
+          <li><a href="./#invite">Invite friends</a></li>
+          <li><a href="./#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:dev.nathanf@gmail.com">Email support</a></li>
+          <li><a href="https://testflight.apple.com/join/AMtnvyBE">Join the beta</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      <span>© 2026 Liftr</span>
+      <span>Apple, iPhone, App Store and TestFlight are trademarks of Apple Inc.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js" defer></script>
 </body>
 </html>
